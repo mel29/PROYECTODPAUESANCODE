@@ -1,7 +1,7 @@
 <template>
   <section>
     <h3 class="title">Bolsa de trabajo</h3>
-    <span>Aqui puedes encontar un buen trabajo</span>
+    <span>¡Estas empresas necesitan tu talento!</span>
     <div class="q-mt-md">
 
       <q-banner rounded dense inline-actions class="wrapper-border q-mb-md publication" v-for="(publication, key) in data"

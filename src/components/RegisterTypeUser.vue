@@ -2,7 +2,7 @@
   <q-dialog persistent transition-show="scale" transition-hide="scale">
     <q-card class="text-white" style="width: 400px; background-color: var(--q-dark);">
       <q-card-section>
-        <div>Registrar nuevo</div>
+        <div>Regístrate</div>
       </q-card-section>
 
       <q-card class="row justify-center" style="column-gap: 2rem;">

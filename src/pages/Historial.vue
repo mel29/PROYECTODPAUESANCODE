@@ -11,7 +11,7 @@
               <q-item-label caption lines="2" v-html="item.descripcion" />
               <q-item-label caption lines="2">Fecha de publicación: <b>{{ computedDate(item.fechaPublicacion) }}</b></q-item-label>
               <q-item-label caption lines="2">
-                Fecha límite a postular: <b class="date-2">{{ computedDate(item.fechaCaducidad) }}</b>
+                Fecha límite para postular: <b class="date-2">{{ computedDate(item.fechaCaducidad) }}</b>
               </q-item-label>
             </q-item-section>
 

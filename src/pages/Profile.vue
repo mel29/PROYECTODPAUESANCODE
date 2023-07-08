@@ -5,7 +5,7 @@
     <div class="q-mt-sm">
       <q-form @submit="onSubmit">
         <q-card-section>
-          <q-input dense outlined v-model="nombreCompleto" class="hoola" label="nombreCompleto" lazy-rules
+          <q-input dense outlined v-model="nombreCompleto" class="hoola" label="Nombre Completo" lazy-rules
             :rules="[val => val && val.length > 0]" />
 
           <q-input dense outlined class="q-mt-md" v-model="correoElectronico" label="Correo electrónico" lazy-rules

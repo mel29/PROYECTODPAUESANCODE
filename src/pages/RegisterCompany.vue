@@ -6,7 +6,7 @@
       <q-card class="my-card" flat bordered>
         <div class="q-pa-md">
           <q-breadcrumbs class="q-arrow">
-            <q-breadcrumbs-el label="Login" icon="arrow_back_ios" to="/" />
+            <q-breadcrumbs-el label="Regresar" icon="arrow_back_ios" to="/" />
           </q-breadcrumbs>
 
           <h3 class="title q-title">Registrarse como <b>empresa</b></h3>

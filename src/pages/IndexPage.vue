@@ -9,15 +9,15 @@
       <img v-if="value.dni"
         src="https://images.vexels.com/media/users/3/127303/isolated/preview/d2d88005bdd8195bb5930634e712c8de-dibujos-animados-de-profesion-de-empresario.png"
         alt="">
-      <div class="welcome-info">
-        <h5>¿Qué es FindMeJob?</h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus a cumque iure, eius, voluptate nihil
-          doloribus vero recusandae adipisci mollitia eum animi quae fuga sint, eligendi commodi ullam nulla magni.</p>
+        <div class="welcome-info">
+        <h5>¡No esperes más!</h5>
+        <p class="aligned"><span class="bullet">&#8226;</span> Completa la información principal de tu perfil</p>
+        <p class="aligned"><span class="bullet">&#8226;</span> Postúlate a los trabajos que más te interesen y sigue el proceso de tus postulaciones.</p>
+        <p class="aligned"><span class="bullet">&#8226;</span> Recuerda mantener tu información actualizada desde la sección de tu perfil.</p>
       </div>
       <div class="welcome-info" v-if="value.ruc">
-        <h5>Como empresa puedes publicar y reclutar personas para tu empresa</h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus a cumque iure, eius, voluptate nihil
-          doloribus vero recusandae adipisci mollitia eum animi quae fuga sint, eligendi commodi ullam nulla magni.</p>
+        <h5>Tu candidato ideal esta en nuestra Base de Datos</h5>
+        <p>Encuentra el talento que necesitas, publica tu aviso gratis del mes y atrae a los mejores candidatos para tu empresa.</p>
       </div>
     </div>
   </q-page>

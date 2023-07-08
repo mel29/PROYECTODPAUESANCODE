@@ -11,7 +11,7 @@
             <q-list>
               <q-item clickable v-close-popup @click="handleLogout">
                 <q-item-section>
-                  <q-item-label>Cerrar sessión</q-item-label>
+                  <q-item-label>Cerrar sesión</q-item-label>
                 </q-item-section>
               </q-item>
             </q-list>

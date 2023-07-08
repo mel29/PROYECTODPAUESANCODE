@@ -5,10 +5,11 @@
         <q-page class="flex flex-center bg-img">
           <q-card class="q-pa-md shadow-2 my_card" bordered>
             <q-card-section class="text-center login-header">
-              <img src="https://images.vexels.com/media/users/3/137617/isolated/lists/c45afb857e72b86e87baaf255f71ff37-resumen-logo-geometrico.png" alt="">
-              <div class="title">FindMeJob</div>
+              <!--<img src="https://images.vexels.com/media/users/3/137617/isolated/lists/c45afb857e72b86e87baaf255f71ff37-resumen-logo-geometrico.png" alt="">-->
+              <img src="../assets/images/logo1.png" alt="">
+              <!--<div class="title">FindMeJob</div>-->
               <div class="text-grey-9 text-h5 text-weight-bold">Iniciar sesión</div>
-              <div class="text-grey-8">Inicie sesión a continuación para acceder a su cuenta</div>
+              <div class="text-grey-8">¡Hay 20,532 trabajos esperándote en Perú!</div>
             </q-card-section>
 
             <q-form @submit="onSubmit">
@@ -36,7 +37,7 @@
 
             <q-card-section class="text-center q-pt-none">
               <div class="text-grey-8">¿Aún no tienes una cuenta?
-                <a @click="handleRegister" class="text-dark text-weight-bold cursor-pointer" style="text-decoration: none">Registrar</a>
+                <a @click="handleRegister" class="text-dark text-weight-bold cursor-pointer" style="text-decoration: none">¡Registrate!</a>
               </div>
             </q-card-section>
 
@@ -114,7 +115,7 @@ const handleRegister = () => {
 <style scoped lang="scss">
 .login-header {
   img {
-    width: 60px;
+    width: 120px;
   }
   .title {
     color: #0463f7;

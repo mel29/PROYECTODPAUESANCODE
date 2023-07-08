@@ -10,13 +10,13 @@
             <q-editor ref="editorRef" class="q-mt-md" v-model="descripcion" lazy-rules
               :rules="[val => val && val.length > 0]" />
             <div>
-              <span>¿pregunta?</span>
+              <span>¿Activo?</span>
               <q-checkbox v-model="estado" />
             </div>
           </q-card-section>
           <q-card-section>
             <q-btn :loading="loading" type="submit" style=" border-radius: 8px;" color="dark" rounded size="md"
-              label="CREAR SKILL" no-caps class="full-width"></q-btn>
+              label="AGREGAR EXPERIENCIA LABORAL" no-caps class="full-width"></q-btn>
           </q-card-section>
         </q-form>
       </div>
@@ -24,12 +24,12 @@
 <!-- <pre>{{ skills }}</pre> -->
 
     <div class="q-pa-md col-12 col-sm-6 list-skils">
-      <div class="q-pl-md">Mis skills</div>
+      <div class="q-pl-md">Mi experiencia laboral</div>
       <q-card-section class="q-pt-xs" v-for="(item,key) in skills" :key="key">
         <q-card class="my-card" flat bordered>
           <q-card-section horizontal>
             <q-card-section class="q-pt-xs">
-              <div class="text-overline">{{ item.estado ? 'Trabajando' : 'Sin vigencia' }}</div>
+              <div class="text-overline">{{ item.estado ? 'A la fecha' : 'Terminado' }}</div>
               <div class="text-caption text-grey" v-html="item.descripcion">
 
               </div>
