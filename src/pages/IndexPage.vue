@@ -2,7 +2,7 @@
   <q-page>
     <div class="welcome">
       <h4>FindMeJob</h4>
-      <span>Bienvenido: <span class="name">{{ value.name }}</span></span>
+      <span>Bienvenid@: <span class="name">{{ value.name }}</span></span>
       <img v-if="value.ruc"
         src="https://images.vexels.com/media/users/3/144883/isolated/lists/09a503901819e475a3c352ddd3e528b3-carrera-de-construccion-de-la-empresa.png"
         alt="">
